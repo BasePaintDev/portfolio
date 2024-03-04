@@ -15,7 +15,7 @@ export default function Header() {
               priority
             />
           </Link>
-          <div className="flex gap-x-12">
+          <div className="hidden gap-x-12 sm:flex">
             <Link
               href="/"
               className="duration-500 ease-out hover:text-purple-500"
