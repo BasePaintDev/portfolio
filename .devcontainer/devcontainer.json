@@ -1,0 +1,14 @@
+{
+  "name": "BasePaint Dev Environment",
+  "dockerFile": "Dockerfile",
+  "postCreateCommand": "pre-commit install",
+  "customizations": {
+    "vscode": {
+      "extensions": ["esbenp.prettier-vscode", "bradlc.vscode-tailwindcss"],
+      "settings": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": false
+      }
+    }
+  }
+}
